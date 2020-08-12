@@ -1,0 +1,30 @@
+#BackoundImage{
+    background-image: url(../../assets/logo2.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    overflow: hidden;
+    color: white;
+
+
+}
+.headings h1{
+    overflow: hidden;
+    
+    
+    margin-top: 150px;
+}
+
+#privacyResize img {
+    
+    height: 60%;
+    width: 100%;
+    
+}
+#privacyResize-2 img {
+    
+    height: 100%;
+    width: 100%;
+    
+}

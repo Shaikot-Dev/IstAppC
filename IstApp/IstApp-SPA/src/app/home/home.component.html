@@ -1,0 +1,76 @@
+
+<div  id="BackoundImage"  >
+  <div *ngIf="!registerMode" style="text-align: center" class="headings">
+    <h1>Web Based communication System of IST</h1>
+    <p class="lead">Join our private communication system</p>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mr-2" (click)="registerToggle()">Register</button>
+      <button class="btn btn-info btn-lg">Learn more</button>
+    </div>
+  </div>
+
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register (cancelRegister)="cancelRegisterMode($event)"></app-register>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="container">
+  <div class="row" >
+    <div class="col-lg-4 text-center" id="privacyResize">
+      <h1>Stop Data Mining</h1>
+      <img src="../../assets/privacy.png" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        acilis, animi hic quisquam veniam dolore magni corrupti au</p>
+    </div>
+    <div class="col-lg-4 text-center" id="privacyResize">
+      <h1>Stop BitCoin Mining</h1>
+      <img src="../../assets/bitcoin.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        acilis, animi hic quisquam veniam dolore magni corrupti au</p>
+    </div>
+    <div class="col-lg-4 text-center" id="privacyResize">
+      <h1>Prevent Data Leakage</h1>
+      <img src="../../assets/data.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        acilis, animi hic quisquam veniam dolore magni corrupti au</p>
+    </div>
+    
+  </div>
+  <div class="row" >
+    <div class="col-lg-6 text-center" id="privacyResize" style="margin-top:200px ;">
+      <h1>Stop Data Mining</h1>      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        acilis, animi hic quisquam veniam dolore magni corrupti au</p>
+    </div>
+    <div class="col-lg-6" id="privacyResize-2">
+     
+      <img src="../../assets/bitcoin.jpg" alt="">
+      
+    </div>  
+    
+  </div>
+</div>
+
+
+
+
+  <div class="container-fluid sticky-bottom bg-success">
+      <div class="row">
+        <div class="container text-center pt-3 text-white">
+          <p>Copyright &copy; All rights reserved | This template is made with 
+            <i class="icon-heart color-danger" aria-hidden="true"></i> by 
+            <a class="text-dark" href="https://www.facebook.com/ma5termine" target="_blank">Anisur Rahman shaikot</a> 
+            and 
+            <i class="icon-heart color-danger" aria-hidden="true"></i>
+            <a class="text-dark" href="https://www.facebook.com/nimon.hasan.onvir" target="_blank">Nimon Hasan</a>
+          </p>
+      </div>
+          
+  </div>
+  </div>
